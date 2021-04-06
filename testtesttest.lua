@@ -9,7 +9,7 @@ result = fh:read'*a'
 fh:close()
 result = string.gsub(result,'UUID',"")
 result = all_trim(result)
-loadstring(getInternet().getURL("https://raw.githubusercontent.com/Japrajah/updater/main/allowedhwids.lua"))()
+loadstring(getInternet().getURL("https://raw.githubusercontent.com/bazax553/bazax553/main/allowedhwids.lua"))()
 function chekehwide()
 --Hwiddata.CEEdit1.Text = string.byte(result,0,35)
 
